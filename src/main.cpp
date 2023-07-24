@@ -1,12 +1,13 @@
 #include "die.h"
+#include "roll.h"
 
 int main() 
 {
-	Die die;
-	int num;
+	Roll myRoll;
 
-	die.roll();
-	num = die.rolled_value();
+	myRoll.roll_die();
+	int num = myRoll.roll_value();
+
 	cout << num << "\n";
 
 	return 0;
