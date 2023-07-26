@@ -5,7 +5,7 @@
 
 class Roll{
 public:
-    Roll() : die1(1), die2(1) {;}
+    Roll() : die1(1), die2(2) {;}
     void roll_die();
     int roll_value() const {return value;}
 private:

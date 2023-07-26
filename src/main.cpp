@@ -1,14 +1,19 @@
 #include "die.h"
 #include "roll.h"
+#include "shooter.h"
 
 int main() 
 {
-	Roll myRoll;
+	Shooter shoot;
+	Die die1(1), die2(2);
+	shoot.throw_die(die1, die2);
 
-	myRoll.roll_die();
-	int num = myRoll.roll_value();
+	cout << shoot;
 
-	cout << num << "\n";
+	Shooter shoot1;
+	shoot1.throw_die(die1, die2);
+
+	cout << shoot1;
 
 	return 0;
 }

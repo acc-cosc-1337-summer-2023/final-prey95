@@ -1,7 +1,10 @@
 #include <iostream>
 #include <random>
+#include <vector>
 
+using std::vector;
 using std::cout;
+using std::ostream;
 
 #ifndef DIE_H
 #define DIE_H
