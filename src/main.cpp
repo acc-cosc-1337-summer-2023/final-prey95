@@ -1,6 +1,9 @@
 #include "die.h"
 #include "roll.h"
 #include "shooter.h"
+#include "phase.h"
+#include "come_out_phase.h"
+#include "point_phase.h"
 
 int main() 
 {
@@ -14,6 +17,8 @@ int main()
 	shoot1.throw_die(die1, die2);
 
 	cout << shoot1;
+	cout << "--------------------" << "\n";
+
 
 	return 0;
 }
